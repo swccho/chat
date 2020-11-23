@@ -1,0 +1,24 @@
+@import "colors/colors";
+
+body{
+  margin: 0;
+  padding:0;
+  background-color:$grey;
+}
+//Top nav
+
+  @import "scssGcomponent/topnav";
+
+//Top nav
+
+//leftSideNav
+
+  @import "scssGcomponent/Leftsidenav";
+
+//leftSideNav
+
+//rightSideNav
+
+  @import "scssGcomponent/rightSideNav";
+
+//rightSideNav

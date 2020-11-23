@@ -1,0 +1,51 @@
+.topnav{
+  .container{
+    .row{
+      .col-3{
+        form{
+          .form-group{
+            label{
+              padding: 6px;
+              text-align: center;
+            }
+            input{
+              border-bottom: none;
+              border-top:none;
+              border-right: none;
+              border-left: 1px solid $dark;
+              border-radius: 0;
+              background-color:$light;
+              outline: none;
+            }
+          }
+        }
+      }
+      .col-9{
+        display: flex;
+        flex-wrap: wrap;
+        .PP{
+          img{
+            width: 80px;
+            padding-top: 6px;
+          }
+        }
+        .PN{
+          p{
+            font-weight: bold;
+            padding-top: 10px;
+          }
+        }
+        .audioAndVideo{
+          margin-left: 45%;
+            i{
+              margin-top: 20px;
+              font-size:25px;
+              color: $dark;
+              margin-left: 20px;
+              cursor: pointer;
+            }
+        }
+      }
+    }
+  }
+}

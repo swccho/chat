@@ -1,0 +1,128 @@
+.rightSideNav{
+  position: fixed;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  left: 78%;
+  z-index: 10;
+  .topheader{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    border-bottom: 1px solid $grey;
+      .image{
+        img{
+          width: 50px;
+          margin-left: 60px;
+          padding-top: 10px;
+        }
+      }
+    .name{
+      h6{
+        padding-top: 25px;
+        margin-left: 20px;
+      }
+    }
+  }
+  .profile{
+    .Pimage{
+      text-align: center;
+      img{
+        width: 120px;
+      }
+    }
+    .Uname{
+      text-align: center;
+    }
+    .options{
+      font-size: 12px;
+      position: relative;
+      h6{
+        font-weight: 700;
+        cursor: pointer;
+        color: grey;
+        padding-bottom: 4px;
+        border-bottom: 1px solid $grey;
+        i{
+          margin-left: 50%;
+        }
+      }
+      .collapse{
+        .row{
+          position: relative;
+          .col-2{
+            position: relative;
+            i{
+              position: absolute;
+              padding-top: 10px;
+              padding-left: 10px;
+            }
+          }
+
+            .search{
+              a{
+                text-decoration: none;
+              }
+            }
+            .editNick{
+                a{
+                  text-decoration: none;
+                }
+            }
+          .editColor{
+            a{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+    }
+    .SharedFiles{
+      font-size: 12px;
+      position: relative;
+      h6{
+        font-weight: 700;
+        cursor: pointer;
+        color: grey;
+        padding-bottom: 4px;
+        border-bottom: 1px solid $grey;
+        i{
+          margin-left: 50%;
+        }
+      }
+      .collapse{
+        .row{
+          position: relative;
+          .col-2{
+            position: relative;
+            i{
+              position: absolute;
+              padding-top: 10px;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+
+    }
+    .SharedPhotos{
+      font-size: 12px;
+      position: relative;
+      h6{
+        font-weight: 700;
+        cursor: pointer;
+        color: grey;
+        padding-bottom: 4px;
+        border-bottom: 1px solid $grey;
+        i{
+          margin-left: 50%;
+        }
+      }
+      .collapse{
+
+      }
+
+    }
+  }
+}
