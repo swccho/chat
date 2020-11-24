@@ -3,13 +3,9 @@
 body{
   margin: 0;
   padding:0;
-  background-color:$grey;
+  background-color:#DCDCDC;
 }
-//Top nav
 
-  @import "scssGcomponent/topnav";
-
-//Top nav
 
 //leftSideNav
 
@@ -22,3 +18,9 @@ body{
   @import "scssGcomponent/rightSideNav";
 
 //rightSideNav
+
+//main_body
+
+  @import "scssGcomponent/main_body";
+
+//main_body

@@ -7,17 +7,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <!--  topNav  -->
 
-        <?php
 
-        include 'phpGcomponent/topnav.php';
-
-        ?>
-
-    <!--  TopNav  -->
-
-    <!--  LeftsideNav  -->
+    <!--  Left sideNav  -->
 
         <?php
 
@@ -25,16 +17,26 @@
 
         ?>
 
-    <!--  LeftsideNav  -->
+    <!--  Left sideNav  -->
 
-    <!--  RightsideNav  -->
+    <!--  Right sideNav  -->
 
         <?php
 
-        include 'phpGcomponent/rightsidenav.php';
+            include 'phpGcomponent/rightsidenav.php';
 
         ?>
 
-    <!--  RightsideNav  -->
+    <!--  Right sideNav  -->
+
+    <!--  main body  -->
+
+        <?php
+
+            include 'phpGcomponent/mainbody.php';
+
+        ?>
+
+    <!--  main body  -->
 </body>
 </html>
