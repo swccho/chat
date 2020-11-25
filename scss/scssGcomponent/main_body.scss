@@ -6,6 +6,7 @@
   position: relative;
   left: 4.5%;
   display: flex;
+  border: 1px solid black;
     .chat_boxs{
       height: 100vh;
         .search-box{
@@ -104,6 +105,7 @@
         }
 
       }
+
     }
   .chat{
     position: relative;
@@ -195,6 +197,54 @@
             }
           }
         }
+    }
+  }
+}
+@media screen and (max-width: 1200px){
+  .main_body{
+    position: relative;
+    left: 5%;
+    z-index: 10;
+    .chat_boxs{
+      .search-box{
+
+      }
+    }
+  }
+}
+@media screen and (max-width: 980px){
+  .main_body{
+    width: 100%;
+    position: relative;
+    left: 6%;
+    z-index: 10;
+    .chat_boxs{
+
+    }
+  }
+}
+@media screen and (max-width: 720px){
+  .main_body{
+    width: 100%;
+    position: relative;
+    left: 8.5%;
+    z-index: 10;
+    .chat_boxs{
+
+      z-index: 10;
+      .chat_list{
+        border: 1px solid black;
+        width: 100%;
+        position: absolute;
+        background-color:#DCDCDC;
+        .box{
+          width: 90%;
+        }
+        .box:hover{
+          width: 96%;
+          margin-left: 4px;
+        }
+      }
     }
   }
 }
