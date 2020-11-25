@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(246deg, rgba(255,255,255,1) 0%, rgba(254,198,129,1) 35%, rgba(255,72,133,1) 78%);
+  height: 100vh;
+}
+.card{
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  h1{
+    text-align: center;
+  }
+  p{
+
+    text-align: center;
+  }
+
+  form{
+
+
+    .email{
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border:none;
+      background-color:#F8F8F8;
+      outline: none;
+      padding-left: 10px;
+    }
+    .pwd{
+      padding: 8px;
+      width: 100%;
+      margin-bottom: 8px;
+      background-color:#F8F8F8;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      padding-left: 10px;
+    }
+
+    input:hover{
+      box-shadow: 0 0 2px grey;
+    }
+    button{
+      position: relative;
+      i{
+        float: right;
+        padding-top: 4px;
+      }
+    }
+  }
+}

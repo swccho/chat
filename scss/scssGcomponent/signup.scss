@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(246deg, rgba(255,255,255,1) 0%, rgba(254,198,129,1) 35%, rgba(255,72,133,1) 78%);
+  height: 100vh;
+}
+.card{
+  position: absolute;
+  left: 35%;
+  top: 14%;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+    h1{
+      text-align: center;
+    }
+  p{
+
+    text-align: center;
+  }
+
+    form{
+
+      .name{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        border:none;
+        background-color:#F8F8F8;
+        outline: none;
+      }
+      .email{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        border:none
+      ;background-color:#F8F8F8;
+        outline: none;
+      }
+      .pwd{
+        padding: 8px;
+        width: 49.4%;
+        margin-bottom: 8px;
+        background-color:#F8F8F8;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border: none;
+        outline: none;
+      }
+      .Cpwd{
+        padding: 8px;
+        width: 49.4%;
+        background-color:#F8F8F8;
+        border: none;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        outline: none;
+      }
+      input:hover{
+        box-shadow: 0 0 2px grey;
+      }
+      button{
+        position: relative;
+        i{
+          float: right;
+          padding-top: 4px;
+        }
+      }
+    }
+}
