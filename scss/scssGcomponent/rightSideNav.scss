@@ -13,18 +13,22 @@
       .image{
         img{
           width: 50px;
-          margin-left: 60px;
+
           padding-top: 10px;
         }
       }
     .name{
       h6{
         padding-top: 25px;
-        margin-left: 20px;
+
       }
+    }
+    .close{
+      display: none;
     }
   }
   .profile{
+
     .Pimage{
       text-align: center;
       img{
@@ -44,7 +48,8 @@
         padding-bottom: 4px;
         border-bottom: 1px solid $grey;
         i{
-          margin-left: 50%;
+          float: right;
+          margin-right: 10%;
         }
       }
       .collapse{
@@ -88,7 +93,8 @@
         padding-bottom: 4px;
         border-bottom: 1px solid $grey;
         i{
-          margin-left: 50%;
+          float: right;
+          margin-right: 10%;
         }
       }
       .collapse{
@@ -116,7 +122,8 @@
         padding-bottom: 4px;
         border-bottom: 1px solid $grey;
         i{
-          margin-left: 50%;
+          float: right;
+          margin-right: 10%;
         }
       }
       .collapse{
@@ -126,8 +133,397 @@
     }
   }
 }
+@media screen and (max-width: 1200px){
+  .rightSideNav{
+    width: 250px;
+    left: 78%;
+    z-index: 300;
+    .profile{
+      .Pimage{
+        text-align: center;
+        img{
+          width: 120px;
+        }
+      }
+      .Uname{
+        text-align: center;
+      }
+      .options{
+        font-size: 12px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 4px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+          .row{
+            position: relative;
+            .col-2{
+              position: relative;
+              i{
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 10px;
+              }
+            }
+
+            .search{
+              a{
+                text-decoration: none;
+              }
+            }
+            .editNick{
+              a{
+                text-decoration: none;
+              }
+            }
+            .editColor{
+              a{
+                text-decoration: none;
+              }
+            }
+          }
+        }
+
+      }
+      .SharedFiles{
+        font-size: 12px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 4px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+          .row{
+            position: relative;
+            .col-2{
+              position: relative;
+              i{
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 10px;
+              }
+            }
+          }
+        }
+
+      }
+      .SharedPhotos{
+        font-size: 12px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 4px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+
+        }
+
+      }
+    }
+  }
+}
 @media screen and (max-width: 980px){
   .rightSideNav{
+    overflow: auto;
     display: none;
+    width: 60%;
+    height: 99.5vh;
+    position: absolute;
+    left:40%;
+    .topheader{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 8px;
+      border-bottom: 1px solid $grey;
+      .image{
+        img{
+          width: 50px;
+
+          padding-top: 10px;
+        }
+      }
+      .name{
+        h6{
+          padding-top: 25px;
+
+        }
+      }
+      .close{
+        display: block;
+        position: absolute;
+        left:90%;
+        top: 5%;
+      }
+    }
+    .profile{
+      .Pimage{
+
+        img{
+          width: 120px;
+        }
+      }
+      .Uname{
+        text-align: center;
+      }
+      .options{
+        font-size: 16px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 4px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+          .row{
+            position: relative;
+            .col-2{
+              position: relative;
+              i{
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 10px;
+              }
+            }
+
+            .search{
+              a{
+                text-decoration: none;
+              }
+            }
+            .editNick{
+              a{
+                text-decoration: none;
+              }
+            }
+            .editColor{
+              a{
+                text-decoration: none;
+              }
+            }
+          }
+        }
+
+      }
+      .SharedFiles{
+        font-size: 16px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 2px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+          .row{
+            position: relative;
+            .col-2{
+              position: relative;
+              i{
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 10px;
+              }
+            }
+          }
+        }
+
+      }
+      .SharedPhotos{
+        font-size: 16px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 4px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+
+        }
+
+      }
+    }
+  }
+}
+@media screen and (min-width:981px){
+  .rightSideNav{
+    display: block !important;
+  }
+}
+@media screen and (max-width: 800px){
+  .rightSideNav{
+    overflow: auto;
+    display: none;
+    width: 55%;
+    height: 99.5vh;
+    position: absolute;
+    left:45%;
+    .topheader{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 8px;
+      border-bottom: 1px solid $grey;
+      .image{
+        img{
+          width: 50px;
+
+          padding-top: 10px;
+        }
+      }
+      .name{
+        h6{
+          padding-top: 25px;
+
+        }
+      }
+      .close{
+        display: block;
+        position: absolute;
+        left:90%;
+        top: 5%;
+      }
+    }
+    .profile{
+      .Pimage{
+
+        img{
+          width: 120px;
+        }
+      }
+      .Uname{
+        text-align: center;
+      }
+      .options{
+        font-size: 16px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 4px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+          .row{
+            position: relative;
+            .col-2{
+              position: relative;
+              i{
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 10px;
+              }
+            }
+
+            .search{
+              a{
+                text-decoration: none;
+              }
+            }
+            .editNick{
+              a{
+                text-decoration: none;
+              }
+            }
+            .editColor{
+              a{
+                text-decoration: none;
+              }
+            }
+          }
+        }
+
+      }
+      .SharedFiles{
+        font-size: 16px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 2px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+          .row{
+            position: relative;
+            .col-2{
+              position: relative;
+              i{
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 10px;
+              }
+            }
+          }
+        }
+
+      }
+      .SharedPhotos{
+        font-size: 16px;
+        position: relative;
+        h6{
+          font-weight: 700;
+          cursor: pointer;
+          color: grey;
+          padding-bottom: 4px;
+          border-bottom: 1px solid $grey;
+          i{
+            float: right;
+            margin-right: 10%;
+          }
+        }
+        .collapse{
+
+        }
+
+      }
+    }
   }
 }

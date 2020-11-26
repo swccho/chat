@@ -6,6 +6,7 @@
         <div class="name">
             <h6>Alifa Hasan <i class="fa fa-angle-down"></i></h6>
         </div>
+        <div class="close"><button class="btn btn-outline-danger btn-sm" onclick="closeSetting()">&times;</button></div>
     </div>
     <div class="profile">
         <div class="Pimage">

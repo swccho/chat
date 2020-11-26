@@ -159,8 +159,10 @@
 
             </div>
             <div class="headerOptions">
+                <i class="fa fa-exclamation-circle" onclick="openOptions()"></i>
                 <i class="fa fa-video-camera"></i>    
                 <i class="fa fa-phone"></i>
+
                 
             </div>
         </div>

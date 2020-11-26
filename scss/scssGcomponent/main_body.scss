@@ -6,7 +6,6 @@
   position: relative;
   left: 4.5%;
   display: flex;
-  border: 1px solid black;
     .chat_boxs{
       height: 100vh;
         .search-box{
@@ -98,7 +97,6 @@
               color: white;
             }
             p{
-              border:1px solid white;
 
             }
           }
@@ -127,10 +125,11 @@
             font-weight: bold;
             small{
               color: $greyish;
+
                 i{
                   font-size: 8px;
-
                 }
+
             }
           }
       }
@@ -144,6 +143,9 @@
             float: right;
             padding-left: 20px;
           }
+        .fa-exclamation-circle{
+          display: none;
+        }
       }
     }
     .chat_box{
@@ -166,112 +168,46 @@
     //  sent Messages
     }
     .sentMessage{
-      border: 1px solid black;
       display: flex;
+      height: 8vh;
+      float: right;
+      width: 100%;
+
       .mesageoptions{
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        padding-top: 15px;
+        display: flex;
         i{
           margin-left: 10px;
-          font-size: 30px;
+          font-size: 25px;
           margin-right: 5px;
         }
+        background-color:white;
+        width: 29%;
+      }
+      form{
+        width: 64%;
+        background-color:white;
+        input{
+          height: 8vh;
+          width: 100%;
+          border: none;
+          outline: none;
+          padding-left:10px;
+        }
+      }
+      .sentoption{
+        padding-top: 4px;
+        width: 6%;
+        background-color:white;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 25px;
       }
       
     }
   }
 }
-@media screen and (max-width: 1200px){
-  .main_body{
-    position: relative;
-    left: 5%;
-    z-index: 10;
-    .chat_boxs{
-      .search-box{
 
-      }
-    }
-    .chat{
-      .chat_box_header{
-        border: 1px solid black;
-          .headerOptions{
-            padding-top: 20px;
-            font-size: 20px;
-            width: 60%;
-            color: $greyish;
-            padding-right: 10px;
-            border: 1px solid red;
-              i{
-              margin-right: 5%;
-                padding-left: 20px;
-              }
-          }
-        
-      }
-    }
-  }
-}
-@media screen and (max-width: 1120px){
-  .main_body{
-    position: relative;
-    left: 5%;
-    z-index: 10;
-    .chat_boxs{
-      .search-box{
 
-      }
-    }
-    .chat{
-      .chat_box_header{
-        border: 1px solid black;
-          .headerOptions{
-            padding-top: 20px;
-            font-size: 20px;
-            width: 50%;
-            color: $greyish;
-            padding-right: 10px;
-            border: 1px solid red;
-              i{
-              margin-right: 5%;
-                padding-left: 20px;
-              }
-          }
-        
-      }
-    }
-  }
-}
-@media screen and (max-width: 980px){
-  .main_body{
-    width: 100%;
-    position: relative;
-    left: 6%;
-    z-index: 10;
-    .chat_boxs{
-
-    }
-  }
-}
-@media screen and (max-width: 720px){
-  .main_body{
-    width: 100%;
-    position: relative;
-    left: 8.5%;
-    z-index: 10;
-    .chat_boxs{
-
-      z-index: 10;
-      .chat_list{
-        border: 1px solid black;
-        width: 100%;
-        position: absolute;
-        background-color:#DCDCDC;
-        .box{
-          width: 90%;
-        }
-        .box:hover{
-          width: 96%;
-          margin-left: 4px;
-        }
-      }
-    }
-  }
-}

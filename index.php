@@ -38,5 +38,8 @@
         ?>
 
     <!--  main body  -->
+    <!--mainbodyJS-->
+    <script src="javascript/mainbody.js"></script>
+    <!--mainbodyJS-->
 </body>
 </html>
