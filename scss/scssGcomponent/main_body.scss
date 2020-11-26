@@ -135,11 +135,13 @@
           }
       }
       .headerOptions{
+        width: 60%;
+        position: relative;
         padding-top: 20px;
         font-size: 20px;
         color: $greyish;
-        margin-left: 55%;
           i{
+            float: right;
             padding-left: 20px;
           }
       }
@@ -164,39 +166,16 @@
     //  sent Messages
     }
     .sentMessage{
-      margin-top: 6px;
-      margin-right: 5px;
-      border-radius: 10px;
-      height: 8.5vh;
-      position: relative;
-      background-color:white;
-        form{
-          display: flex;
-          flex-wrap: wrap;
-            .mesageoptions{
-              padding-top: 5px;
-                span{
-                  font-size: 25px;
-                  margin-left: 10px;
-                  cursor: pointer;
-                }
-            }
-          input{
-            height: 50px;
-            margin-left: 10px;
-            width: 66%;
-            border: none;
-            outline: none;
-          }
-          .sentoption{
-            padding-top: 12px;
-            i{
-              font-size: 25px;
-              margin-left: 10px;
-              cursor: pointer;
-            }
-          }
+      border: 1px solid black;
+      display: flex;
+      .mesageoptions{
+        i{
+          margin-left: 10px;
+          font-size: 30px;
+          margin-right: 5px;
         }
+      }
+      
     }
   }
 }
@@ -208,6 +187,54 @@
     .chat_boxs{
       .search-box{
 
+      }
+    }
+    .chat{
+      .chat_box_header{
+        border: 1px solid black;
+          .headerOptions{
+            padding-top: 20px;
+            font-size: 20px;
+            width: 60%;
+            color: $greyish;
+            padding-right: 10px;
+            border: 1px solid red;
+              i{
+              margin-right: 5%;
+                padding-left: 20px;
+              }
+          }
+        
+      }
+    }
+  }
+}
+@media screen and (max-width: 1120px){
+  .main_body{
+    position: relative;
+    left: 5%;
+    z-index: 10;
+    .chat_boxs{
+      .search-box{
+
+      }
+    }
+    .chat{
+      .chat_box_header{
+        border: 1px solid black;
+          .headerOptions{
+            padding-top: 20px;
+            font-size: 20px;
+            width: 50%;
+            color: $greyish;
+            padding-right: 10px;
+            border: 1px solid red;
+              i{
+              margin-right: 5%;
+                padding-left: 20px;
+              }
+          }
+        
       }
     }
   }

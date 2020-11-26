@@ -159,8 +159,9 @@
 
             </div>
             <div class="headerOptions">
+                <i class="fa fa-video-camera"></i>    
                 <i class="fa fa-phone"></i>
-                <i class="fa fa-video-camera"></i>
+                
             </div>
         </div>
 
@@ -198,18 +199,19 @@
 <!--    SENT MESSAGE FORM    -->
 
         <div class="sentMessage">
-            <form>
-                <div class="mesageoptions">
+        <div class="mesageoptions">
                     <span> <i class="fa fa-paperclip"></i></span>
                     <span> <i class="fa fa-instagram"></i></span>
                     <span> <i class="fa fa-picture-o"></i></span>
                     <span> <i class="fa fa-smile-o"></i></span>
                 </div>
-                <input type="text">
+                <form action="">
+                    <input type="text">
+                </form>
                 <div class="sentoption">
                     <i class="fa fa-paper-plane"></i>
                 </div>
-            </form>
+            
         </div>
 
  <!--    SENT MESSAGE FORM    -->
