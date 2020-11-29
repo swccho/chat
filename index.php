@@ -23,7 +23,7 @@
 
         <?php
 
-            // include 'phpGcomponent/rightsidenav.php';
+             include 'phpGcomponent/rightsidenav.php';
 
         ?>
 

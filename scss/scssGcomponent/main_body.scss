@@ -252,6 +252,11 @@
         .fa-exclamation-circle{
           display: none;
         }
+        @media screen and (max-width:980px){
+          .fa-exclamation-circle{
+            display: block;
+          }
+        }
       }
       @media screen and (max-width:520px){
         .headerOptions{
