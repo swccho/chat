@@ -37,6 +37,11 @@
             }
           }
         }
+      @media screen and (max-width:440px){
+        .search-box{
+          height: 16vh;
+        }
+      }
         @media screen and (max-width:980px){
           .search-box{
             form{
@@ -178,6 +183,7 @@
         display: block !important;
       }
     }
+
   .chat{
     
     position: relative;
@@ -240,7 +246,7 @@
       }
       .headerOptions{
         
-        width: 60%;
+        width: 70%;
         position: relative;
         padding-top: 20px;
         font-size: 20px;
@@ -256,6 +262,12 @@
           .fa-exclamation-circle{
             display: block;
           }
+        }
+
+      }
+      @media screen and (max-width:840px){
+        .headerOptions{
+          width: 60%;
         }
       }
       @media screen and (max-width:520px){
@@ -308,6 +320,14 @@
         background-color:white; 
         width: 29%;
       }
+      @media screen and (max-width:440px){
+        .mesageoptions{
+          padding-top: 8px;
+          i{
+            font-size: 20px;
+          }
+        }
+      }
       form{
         width: 64%;
         background-color:white;
@@ -326,6 +346,12 @@
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
         font-size: 25px;
+      }
+      @media screen and (max-width:440px){
+        .sentoption{
+          font-size: 20px;
+          padding-top: 2px;
+        }
       }
       
     }

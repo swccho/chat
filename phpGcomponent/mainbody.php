@@ -182,7 +182,7 @@
 
 
 <!--        received messages        -->
-
+            <br>
 <!--        received messages        -->
 
             <?php
@@ -193,7 +193,7 @@
 
 
 <!--        received messages        -->
-
+            <br>
 
         </div>
 

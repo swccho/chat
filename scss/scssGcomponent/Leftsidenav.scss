@@ -47,6 +47,14 @@
     display: none;
   }
 }
+@media screen and (max-width:440px){
+  .sidenav{
+    height: 16vh;
+    .nav{
+      display: none;
+    }
+  }
+}
 @media screen and (min-width:721px){
   .sidenav{
     display: block !important;
