@@ -4,23 +4,27 @@ body{
   margin: 0;
   padding:0;
   background-color:#DCDCDC;
+
 }
-
-
+.authbox{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 //leftSideNav
 
   @import "scssGcomponent/Leftsidenav";
 
 //leftSideNav
+  //main_body
 
+  @import "scssGcomponent/main_body";
+
+  //main_body
 //rightSideNav
 
   @import "scssGcomponent/rightSideNav";
 
 //rightSideNav
 
-//main_body
 
-  @import "scssGcomponent/main_body";
-
-//main_body
+}

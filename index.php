@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-
+<div class="authbox">
 
     <!--  Left sideNav  -->
 
@@ -18,6 +18,15 @@
         ?>
 
     <!--  Left sideNav  -->
+    <!--  main body  -->
+
+    <?php
+
+    include 'phpGcomponent/mainbody.php';
+
+    ?>
+
+    <!--  main body  -->
 
     <!--  Right sideNav  -->
 
@@ -29,15 +38,8 @@
 
     <!--  Right sideNav  -->
 
-    <!--  main body  -->
 
-        <?php
-
-            include 'phpGcomponent/mainbody.php';
-
-        ?>
-
-    <!--  main body  -->
+</div>
     <!--mainbodyJS-->
     <script src="javascript/mainbody.js"></script>
     <!--mainbodyJS-->
