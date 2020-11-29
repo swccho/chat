@@ -9,13 +9,14 @@
           width: 30px;
           margin-top: 20px;
           margin-bottom: 10px;
+          border-radius: 50%;
         }
       }
     }
     
     .nav{
       background-color: $light;
-      height: 100vh;
+      height: 90vh;
       .nav-item{
         .nav-link{
           img{
