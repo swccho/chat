@@ -2,7 +2,7 @@
 
     <div class="nav_logo text-center">
 
-        <a href="#">
+        <a href="#" onclick="showleftsidenav()">
 
             <img src="https://bm-test.equidesk.com/_assets/images/logo.png" alt="">
 

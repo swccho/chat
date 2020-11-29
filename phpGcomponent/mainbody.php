@@ -12,7 +12,7 @@
             </form>
         </div>
         <div class="chat_list">
-        <div class="box">
+        <div class="box" onclick="showMsg(0)">
 
             <div class="image">
 
@@ -33,7 +33,7 @@
             </div>
 
         </div>
-        <div class="box">
+        <div class="box"onclick="showMsg(1)">
 
             <div class="image">
 
@@ -54,7 +54,7 @@
             </div>
 
         </div>
-        <div class="box">
+        <div class="box"onclick="showMsg(2)">
 
             <div class="image">
 
@@ -75,7 +75,7 @@
             </div>
 
         </div>
-        <div class="box">
+        <div class="box"onclick="showMsg(3)">
 
             <div class="image">
 
@@ -96,7 +96,7 @@
             </div>
 
         </div>
-        <div class="box">
+        <div class="box"onclick="showMsg(4)">
 
             <div class="image">
 
@@ -117,7 +117,7 @@
             </div>
 
         </div>
-        <div class="box">
+        <div class="box"onclick="showMsg(5)">
 
             <div class="image">
 
@@ -146,6 +146,7 @@
 <!--    CHAT LIST    -->
         <div class="chat_box_header">
             <div class="headerimage">
+            <img onclick="showC8List()" class="backImage" src="https://img.icons8.com/carbon-copy/100/000000/back.png"/>
                 <img src="https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png" alt="">
             </div>
             <div class="headerInfo">

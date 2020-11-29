@@ -1,83 +1,53 @@
 .sidenav{
-  position: fixed;
-  top: 0;
-  z-index: 1;
+  position: absolute;
+  width:60px;
   height: 100vh;
-  border: 2px solid #f8f9fa;
+  z-index: 1;
     .nav_logo{
-      position: relative;
-      padding-top: 15px;
       a{
         img{
-          width: 35px;
-          border-radius: 50%;
+          width: 30px;
+          margin-top: 20px;
+          margin-bottom: 10px;
         }
       }
     }
-  .nav{
-
-    .nav-item{
-      position: relative;
-      margin-top: 17px;
-      top: 20px;
-      .nav-link{
-        img{
-            width: 25px;
-          }
-        }
-        i{
-          cursor: pointer;
-          color: $grey;
-          font-size: 38px;
-        }
-      i:hover{
-        color: $red;
-        transition: .3s;
-        opacity: .8;
-      }
-    }
-  }
-}
-@media screen and (max-width: 720px){
-  .sidenav{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 10%;
-    height: 12.3vh;
-    border: 2px solid #f8f9fa;
-    .nav_logo{
-      position: relative;
-      padding-top: 15px;
-      a{
-        img{
-          width: 35px;
-          border-radius: 50%;
-        }
-      }
-    }
+    
     .nav{
-      display: none;
+      background-color: $light;
+      height: 100vh;
       .nav-item{
-        position: relative;
-        margin-top: 17px;
-        top: 20px;
         .nav-link{
           img{
-            width: 25px;
+            width: 30px;
           }
-        }
-        i{
-          cursor: pointer;
-          color: $grey;
-          font-size: 38px;
-        }
-        i:hover{
-          color: $red;
-          transition: .3s;
-          opacity: .8;
         }
       }
     }
+}
+@media screen and (max-width:980px){
+  .sidenav{
+    height: 12.3vh;
+      .nav{
+        display: none;
+      }
+  }
+}
+@media screen and (min-width:981px){
+  .sidenav{
+    height: 12.3vh;
+      .nav{
+        display: block !important;
+      }
+  }
+}
+@media screen and (max-width:720px){
+  .sidenav{
+    display: none;
+  }
+}
+@media screen and (min-width:721px){
+  .sidenav{
+    display: block !important;
   }
 }
